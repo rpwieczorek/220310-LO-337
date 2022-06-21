@@ -461,10 +461,12 @@ es-loreal.es-loreal .es-aplikator__text {
 
 #es-loreal.es-loreal .es-slider__wrapper {
   padding: 56px 16px 0 16px;
+  
 }
 
 #es-loreal.es-loreal .es-slider__content {
   max-width: 886px;
+  max-height: 450px;
   padding: 16px 24px;
   margin: 0 auto;
   background: #fff;
@@ -592,6 +594,7 @@ es-loreal.es-loreal .es-aplikator__text {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 32px;
 }
 
 #es-loreal.es-loreal .es-benefits__single {
@@ -633,13 +636,8 @@ es-loreal.es-loreal .es-aplikator__text {
 }
 
 #es-loreal.es-loreal .es-serum__bg {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 32px;
+  display: none;
+
 }
 
 #es-loreal.es-loreal .es-serum__bg img {
@@ -704,6 +702,7 @@ es-loreal.es-loreal .es-aplikator__text {
 }
 
 #es-loreal.es-loreal .es-mask__bg {
+  margin-top: 32px;
   margin-bottom: 32px;
 }
 
@@ -734,14 +733,16 @@ es-loreal.es-loreal .es-mask__text {
   font-family: inherit;
   font-weight: inherit;
   font-weight: 700;
+  text-align: center;
 }
 #es-loreal.es-loreal .es-mask__link-container {
   padding: 20px;
   width: 250px;
+  margin: auto auto;
 }
 
 #es-loreal.es-loreal .es-mask__link {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   line-height: inherit;
   color: inherit;
@@ -1051,8 +1052,16 @@ es-loreal.es-loreal .es-mask__text {
     margin-bottom: 0;
   }
   #es-loreal.es-loreal .es-serum__bg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 32px;
     margin-bottom: 0;
   }
+  
   #es-loreal.es-loreal .es-serum__titles {
     position: absolute;
     top: 16px;
@@ -1102,6 +1111,7 @@ es-loreal.es-loreal .es-mask__text {
     position: relative;
   }
   #es-loreal.es-loreal .es-mask__bg {
+    margin-top: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
