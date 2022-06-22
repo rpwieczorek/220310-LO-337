@@ -466,9 +466,9 @@ es-loreal.es-loreal .es-aplikator__text {
 
 #es-loreal.es-loreal .es-slider__content {
   max-width: 886px;
-  max-height: 470px;
+  max-height: 490px;
   padding: 16px 24px;
-  margin: 0 auto;
+  margin: auto auto;
   background: #fff;
   border-radius: 16px;
   -webkit-box-shadow: 8px 16px 40px rgba(0, 0, 0, 0.1);
